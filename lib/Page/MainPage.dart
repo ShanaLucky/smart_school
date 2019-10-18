@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('请登录'),
+        title: Text('请登录.'),
         centerTitle: true,
       ),
       body: Form(

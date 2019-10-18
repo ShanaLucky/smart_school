@@ -14,7 +14,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final GlobalKey _formKey = GlobalKey<FormState>();
   String _userEmail;
-  String _userPassword;
+  String _userPassword; // 用户密码
   bool _isObscure = true;
   Color _eyeColor;
   List _loginMethod = [

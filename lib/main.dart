@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'HydroCarbon', // App Title
       theme: ThemeData(
-        primarySwatch: Colors.blue, // App 主题设置为蓝色
+        primaryColor: Color.fromRGBO(33, 33, 33, 1.0), // App 主题设置为蓝色
       ),
       home: LoginPage(), // 程序启动页面
       debugShowCheckedModeBanner: false, // 关闭 Debug 标识
